@@ -1,0 +1,4 @@
+riuk.spec
+build
+dist
+*.pyc
