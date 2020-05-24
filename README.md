@@ -3,7 +3,7 @@
 
 <div style="text-align: center"> 
 
-<img src="assets/riuk.png">
+<img src="riuk.png">
 
 ## RiukCrypt
 This simple script was carried out in an educational way to encrypt files in directories.
