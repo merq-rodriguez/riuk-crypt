@@ -17,7 +17,7 @@ pip3 install -r requirements.txt
 
 
 ##### Encript
-Use -e param for set extentions to encrypt: 
+Use -e param for set extensions to encrypt: 
 
 * **web** = 'htm|html|mht|mhtml|xml|yml'
 * **word** = 'docx|docm|dotx|doc|dotm|odt|ods|rtf|txt|wps|xps'
@@ -28,6 +28,8 @@ Use -e param for set extentions to encrypt:
 * **videos** = 'mp4|avi|mpeg|mpeg-2|mkv|flv|mov|wmv'
 * **audio** = 'mp3|gsm|dct|vox|smaf|aiff|au|alac|ogg|vorbis|opus|mpc|tta|aac|wma|wav|atrac|ram|iklax|midi'
 * **development** = 'json|js|py|go|cpp|c|o|java|css|'
+
+User -e '.*' for encrypt all extensions in folder
 
 ```bash
 $ python3 -B main.py  --folder '/home/folder_to_encrypt' --keysecret 'xxxxxxx' --action encrypt -e "jpeg|pdf"
