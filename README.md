@@ -29,7 +29,7 @@ Use -e param for set extensions to encrypt:
 * **audio** = 'mp3|gsm|dct|vox|smaf|aiff|au|alac|ogg|vorbis|opus|mpc|tta|aac|wma|wav|atrac|ram|iklax|midi'
 * **development** = 'json|js|py|go|cpp|c|o|java|css|'
 
-User -e '.*' for encrypt all extensions in folder
+Use -e '.*' for encrypt all extensions in folder
 
 ```bash
 $ python3 -B main.py  --folder '/home/folder_to_encrypt' --keysecret 'xxxxxxx' --action encrypt -e "jpeg|pdf"
