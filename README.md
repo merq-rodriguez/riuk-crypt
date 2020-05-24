@@ -12,7 +12,7 @@ AES and SHA256 encryption is used to hash the secret key.
 
 #### Install Requirements
 ```bash
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 
