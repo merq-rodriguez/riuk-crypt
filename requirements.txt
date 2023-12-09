@@ -1,2 +1,2 @@
 pycrypto==2.6.1
-PyInstaller==3.6
+PyInstaller==5.13.1
